@@ -15,11 +15,15 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "noImplicitAny": false,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "isolatedModules": false
   },
   "include": [
-    "src"
+    "src/**/*",
+  ],
+  "exclude": [
+    "backend/server.ts"
   ]
 }
