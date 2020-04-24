@@ -23,7 +23,7 @@
   "include": [
     "src/**/*"
   ],
-  "exclude": [
-    "backend/server.mts"
-  ]
+  // "exclude": [
+  //   "backend/server.mts"
+  // ]
 }

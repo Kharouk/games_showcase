@@ -3,12 +3,11 @@ const bodyParser = require("body-parser")
 const path = require("path")
 const app = express()
 
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, "RocketMan", "index.html"))
-})
 
 app.use(express.static(path.join(__dirname, "../build")))
-app.get("/app", function (req, res) {
+app.use("/rocketman", express.static(path.join(__dirname, 'game')))
+
+app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "../build", "index.html"))
 })
 
