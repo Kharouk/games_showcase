@@ -18,12 +18,12 @@
     "noImplicitAny": false,
     "noEmit": true,
     "jsx": "react",
-    "isolatedModules": false
+    "isolatedModules": true
   },
   "include": [
-    "src/**/*",
+    "src/**/*"
   ],
   "exclude": [
-    "backend/server.ts"
+    "backend/server.mts"
   ]
 }
