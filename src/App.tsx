@@ -6,9 +6,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Welcome to the Great Game Dev Log!</h1>
         <p>
-          Check out my first game <a href="/rocketman">here</a>.
+         Check out <a href="/rocketman">Rocketman</a>.
+        </p>
+        <p>
+          Check out <a href="/piggyattack">Piggy Attack</a>.
         </p>
       </header>
     </div>
